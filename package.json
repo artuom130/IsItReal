@@ -1,0 +1,24 @@
+{
+  "name": "isitreal",
+  "version": "1.0.0",
+  "description": "The webpage with a game when you should decide if image is a real photo or a picture.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artuom130/isItReal.git"
+  },
+  "author": "Artem Loiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artuom130/isItReal/issues"
+  },
+  "homepage": "https://github.com/artuom130/isItReal#readme",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "uuid": "^7.0.3"
+  }
+}
