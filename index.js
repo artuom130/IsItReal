@@ -4,7 +4,7 @@ const successLog =
 // eslint-disable-next-line operator-linebreak
 const errorLog =
   "\n> school-ci-client@0.3.0 build C:\\Users\\artem\\code\\shri-homeworks\\shri-hw-school-ci\\client\n> react-scripts build\n\nCreating an optimized production build...\n\u001b[31mFailed to compile.\u001b[39m\n\u001b[31m\u001b[39m\n\u001b[7m./src/components/common/BuildHistory/BuildHistory.js\u001b[27m\n  \u001b[1mLine 16:8:\u001b[22m  'Buttons' is not defined  \u001b[31m\u001b[4mreact/jsx-no-undef\u001b[24m\u001b[39m\n\n";
-const isSuccess = Math.random() < 0.06;
+const isSuccess = Math.random() < 0.96;
 
 setTimeout(() => {
   console.log(isSuccess ? successLog : errorLog);
